@@ -1,0 +1,90 @@
+default:
+  navigation:
+    - title: Epicerie sucrée
+      subtitle: Categories
+      url: /t/sucré
+      items:
+        - :title: Chameya
+          :url: /t/sucré/chameya
+        - :title: Dro3
+          :url: /t/sucré/dro3
+        - :title: Confiture
+          :url: /t/sucré/confiture
+        - :title: Bseyess
+          :url: /t/sucré/bseyess
+        - :title: Créma
+          :url: /t/sucré/créma
+        - :title: Café Turk Ben yedder
+          :url: /t/sucré/café-turk-ben-yedder
+        - :title: jus
+          :url: /t/sucré/jus
+      promo_banners:
+        - subtitle: Spéciale 
+          title: Aid
+          url: /t/spéciale/aid
+          image: 'homepage/brochette1.jpeg'
+        - subtitle: Spéciale
+          title: Mouled
+          url: /t/spéciale/mouled
+          image: 'homepage/asida.jpeg'
+    - title: Epicerie salée
+      subtitle: Categories
+      url: /t/salée
+      items:
+        - :title: Pate
+          :url: /t/salée/pate
+        - :title: Offe7
+          :url: /t/salée/offe7
+        - :title: Bsayess
+          :url: /t/salée/bsayess
+        - :title: Tomate
+          :url: /t/salée/tomate
+      promo_banners:
+        - subtitle: Spéciale 
+          title: Aid
+          url: /t/spéciale/aid
+          image: 'homepage/brochette1.jpeg'
+        - subtitle: Spéciale
+          title: Mouled
+          url: /t/spéciale/mouled
+          image: 'homepage/asida.jpeg'
+
+    - title: Patisserie
+      subtitle: Categories
+      url: /t/patisserie
+      items:
+        - :title: Matériel
+          :url: /t/patisserie/matériel
+        - :title: Produits
+          :url: /t/patisserie/produits
+      promo_banners:
+        - subtitle: Spéciale 
+          title: Aid
+          url: /t/spéciale/aid
+          image: 'homepage/brochette1.jpeg'
+        - subtitle: Spéciale
+          title: Mouled
+          url: /t/spéciale/mouled
+          image: 'homepage/asida.jpeg'
+  
+ 
+    - title: Textile
+      subtitle: Categories
+      url: /t/textile
+      items:
+        - :title: artisana
+          :url: /t/textile/artisana
+      promo_banners:
+        - subtitle: Spéciale 
+          title: Aid
+          url: /t/spéciale/aid
+          image: 'homepage/brochette1.jpeg'
+        - subtitle: Spéciale
+          title: Mouled
+          url: /t/spéciale/mouled
+          image: 'homepage/asida.jpeg'
+  
+
+   
+      
+          
