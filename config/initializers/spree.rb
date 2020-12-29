@@ -12,6 +12,8 @@
 Spree.config do |config|
   config.logo = 'tunisiatunisia.png'
   config.admin_interface_logo = 'tunisiatunisia.png'
+  config.always_put_site_name_in_title = false
+  config.admin_show_version = false
 end
 module Paperclip
   class MediaTypeSpoofDetector
@@ -33,5 +35,6 @@ Spree.dependencies do |dependencies|
 end
 
 # Spree::Api::Dependencies.storefront_cart_serializer = 'MyRailsApp::CartSerializer'
-
+Spree::Frontend::Config[:locale] = :fr
+Spree::Backend::Config[:locale] = :fr
 Spree.user_class = "Spree::User"
